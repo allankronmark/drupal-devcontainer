@@ -2,14 +2,14 @@
 
 This is a Drupal test container and here's a few tips:
 - Exposed ports are:
-   > 8000 (for phpinfo e.g. index.php)
-   > 8888 (for drupal)
+   - 8000 (for phpinfo e.g. index.php)
+   - 8888 (for drupal)
 - (optional) If composer is missing, install it into the drupal folder
 - (optional) On first build, force reinstallation of drupal
 - to start Drupal:
-   > cd /workspaces/vscode-remote-try-php/drupal && php core/scripts/drupal quick-start demo_umami
-   > navigate to the URL provided
-   > http://127.0.0.1:8888/en/admin
+   1. cd /workspaces/vscode-remote-try-php/drupal && php core/scripts/drupal quick-start demo_umami
+   2. navigate to the URL provided
+   3. http://127.0.0.1:8888/en/admin
 - here's how to update: https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer
 
 
