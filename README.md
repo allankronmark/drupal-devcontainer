@@ -1,4 +1,17 @@
-# Try Out Development Containers: PHP
+# Added by Allan
+
+This is a Drupal test container and here's a few tips:
+- Exposed ports are 8000 (for phpinfo e.g. index.php)
+- (optional) If composer is missing, install it into the drupal folder
+- (optional) On first build, force reinstallation of drupal
+- to start Drupal:
+   > cd /workspaces/vscode-remote-try-php/drupal && php core/scripts/drupal quick-start demo_umami
+   > navigate to the URL provided
+   > http://127.0.0.1:8888/en/admin
+- here's how to update: https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer
+
+
+## Try Out Development Containers: PHP
 
 This is a sample project that lets you try out the **[VS Code Remote - Containers](https://aka.ms/vscode-remote/containers)** extension in a few easy steps.
 
