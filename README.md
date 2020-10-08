@@ -1,7 +1,9 @@
 # Added by Allan
 
 This is a Drupal test container and here's a few tips:
-- Exposed ports are 8000 (for phpinfo e.g. index.php)
+- Exposed ports are:
+   > 8000 (for phpinfo e.g. index.php)
+   > 8888 (for drupal)
 - (optional) If composer is missing, install it into the drupal folder
 - (optional) On first build, force reinstallation of drupal
 - to start Drupal:
